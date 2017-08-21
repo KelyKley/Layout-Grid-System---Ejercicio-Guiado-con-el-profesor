@@ -1,0 +1,93 @@
+/*GLOBAL*/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0px auto;
+}
+
+.row:before, .row:after{
+	content: " ";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+[class*="col-"] {
+	min-height: 7px;
+	padding: 100px;
+	float: left;
+	border: 1px solid white;
+}
+
+.col-1 {
+	width: 8.333333%;
+	background: salmon;
+}
+
+.col-2 {
+	width: 16.666667%;
+	background: green;
+}
+
+.col-3 {
+	width: 25%;
+	background: red;
+}
+
+.col-4 {
+	width: 33.333333%;
+	background: yellow;
+}
+
+.col-5 {
+	width: 41.666667%;
+	background: skyblue;
+}
+
+.col-6 {
+	width: 50%;
+	background: yellow;
+}
+
+.col-7 {
+	width: 58.33%;
+	background: maroon;
+}
+
+.col-8 {
+	width: 66.66%;
+	background: pink;
+}
+
+.col-9 {
+	width: 75%;
+	background: blue;
+}
+
+.col-10 {
+	width: 83.33%;
+	background: skyblue;
+}
+
+.col-11 {
+	width: 91.66%;
+	background: red;
+}
+
+.col-12 {
+	width: 100%;
+	background: maroon;
+}
+
+h2 {
+	font-size: 30px;
+	color: salmon;
+}
